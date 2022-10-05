@@ -1,0 +1,19 @@
+{
+  "name": "posam",
+  "version": "1.0.0",
+  "description": "PosAm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Predrag/PosAm.git"
+  },
+  "author": "Martin Durisin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Predrag/PosAm/issues"
+  },
+  "homepage": "https://github.com/Predrag/PosAm#readme"
+}
