@@ -1,3 +1,4 @@
-# How to run Cypress Tests
-## 1. npm install
-## 2. 
+## How to run Cypress Tests
+
+- npm install
+- npm run --workspace=e2e cypress:run
