@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Predrag/PosAm/issues"
   },
-  "homepage": "https://github.com/Predrag/PosAm#readme"
+  "homepage": "https://github.com/Predrag/PosAm#readme",
+  "workspaces": [
+    "packages/e2e"
+  ],
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
 }
