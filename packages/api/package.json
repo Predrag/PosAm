@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "express:run:dev": "nodemon index.ts",
+    "express:run": "npx ts-node index.ts"
   },
   "author": "Martin Durisin",
   "license": "ISC",
@@ -13,6 +14,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
-    "@types/node": "^18.8.2"
+    "@types/node": "^18.8.2",
+    "nodemon": "^2.0.20"
   }
 }

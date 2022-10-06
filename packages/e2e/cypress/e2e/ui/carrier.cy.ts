@@ -1,5 +1,5 @@
-import { CarrierPage } from "../pages/carrier/carrier-page";
-import { Variables } from "../env/variables";
+import { CarrierPage } from "../../pages/carrier/carrier-page";
+import { Variables } from "../../env/variables";
 
 const carrierPage = new CarrierPage();
 const env = Variables;

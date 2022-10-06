@@ -1,4 +1,4 @@
-import { CookiesPage } from "../pages/cookies/cookies-page";
+import { CookiesPage } from "../../pages/cookies/cookies-page";
 
 const cookiePage = new CookiesPage();
 
