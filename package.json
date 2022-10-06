@@ -4,7 +4,7 @@
   "description": "PosAm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"skuska\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/Predrag/PosAm/issues"
   },
-  "homepage": "https://github.com/Predrag/PosAm#readme"
+  "homepage": "https://github.com/Predrag/PosAm#readme",
+  "workspaces": [
+    "packages/e2e",
+    "packages/api"
+  ],
+  "devDependencies": {
+    "prettier": "2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "Cypress PosAm Gui Tests",
+  "main": "index.js",
+  "scripts": {
+    "cypress:start:server": "npm run --prefix ../api express:run",
+    "cypress:open": "npm run cypress:start:server & wait-on http://localhost:2222 & cypress open --e2e --browser=chrome",
+    "cypress:run": "npm run cypress:start:server & wait-on http://localhost:2222 & cypress run --e2e --browser=electron"
+  },
+  "author": "Martin Durisin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  },
+  "dependencies": {
+    "wait-on": "^6.0.1"
+  }
+}
